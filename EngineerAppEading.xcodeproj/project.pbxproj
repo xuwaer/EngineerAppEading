@@ -189,6 +189,57 @@
 		39EFC23518598B1700161B3D /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC22918598B1700161B3D /* MJRefreshFooterView.m */; };
 		39EFC23618598B1700161B3D /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC22B18598B1700161B3D /* MJRefreshHeaderView.m */; };
 		39EFC23718598B1700161B3D /* RefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC22D18598B1700161B3D /* RefreshTableViewController.m */; };
+		39EFC24318598F4300161B3D /* ForgetPwdRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC23A18598F4300161B3D /* ForgetPwdRequestViewController.m */; };
+		39EFC24418598F4300161B3D /* ForgetPwdVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC23C18598F4300161B3D /* ForgetPwdVerifyViewController.m */; };
+		39EFC24518598F4300161B3D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC23E18598F4300161B3D /* LoginViewController.m */; };
+		39EFC24618598F4300161B3D /* RegisterVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC24018598F4300161B3D /* RegisterVerifyViewController.m */; };
+		39EFC24718598F4300161B3D /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC24218598F4300161B3D /* RegisterViewController.m */; };
+		39EFC24F18598F7B00161B3D /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC24A18598F7B00161B3D /* BaseTabBarController.m */; };
+		39EFC25018598F7B00161B3D /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC24C18598F7B00161B3D /* BaseTableViewController.m */; };
+		39EFC25118598F7B00161B3D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC24E18598F7B00161B3D /* BaseViewController.m */; };
+		39EFC25D18598FD000161B3D /* ForgetPwdControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC25418598FD000161B3D /* ForgetPwdControl.m */; };
+		39EFC25E18598FD000161B3D /* ForgetPwdVerifyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC25618598FD000161B3D /* ForgetPwdVerifyControl.m */; };
+		39EFC25F18598FD000161B3D /* LoginControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC25818598FD000161B3D /* LoginControl.m */; };
+		39EFC26018598FD000161B3D /* RegisterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC25A18598FD000161B3D /* RegisterControl.m */; };
+		39EFC26118598FD000161B3D /* RegisterVerifyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC25C18598FD000161B3D /* RegisterVerifyControl.m */; };
+		39EFC2641859903000161B3D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2631859903000161B3D /* MainViewController.m */; };
+		39EFC26A1859A09200161B3D /* OnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2691859A09200161B3D /* OnlineViewController.m */; };
+		39EFC26D1859A2DD00161B3D /* DiscussViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC26C1859A2DD00161B3D /* DiscussViewController.m */; };
+		39EFC2701859A33700161B3D /* SearchQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC26F1859A33700161B3D /* SearchQuestionViewController.m */; };
+		39EFC2731859A6F100161B3D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2721859A6F100161B3D /* FirstViewController.m */; };
+		39EFC2761859A9AE00161B3D /* MissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2751859A9AE00161B3D /* MissionViewController.m */; };
+		39EFC2791859A9D700161B3D /* SearchQuestionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2781859A9D700161B3D /* SearchQuestionControl.m */; };
+		39EFC27D1859AB6400161B3D /* ExtendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC27C1859AB6400161B3D /* ExtendCell.m */; };
+		39EFC2841859AC9800161B3D /* NewMissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2831859AC9800161B3D /* NewMissionViewController.m */; };
+		39EFC28A1859ADA500161B3D /* NewMissionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2891859ADA500161B3D /* NewMissionDetailViewController.m */; };
+		39EFC28D1859ADBB00161B3D /* DuringMissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC28C1859ADBB00161B3D /* DuringMissionViewController.m */; };
+		39EFC2901859AEC000161B3D /* ClientLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC28F1859AEC000161B3D /* ClientLogViewController.m */; };
+		39EFC2961859B01200161B3D /* ClientLogControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2951859B01200161B3D /* ClientLogControl.m */; };
+		39EFC2991859B07500161B3D /* WorkHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2981859B07500161B3D /* WorkHistoryViewController.m */; };
+		39EFC29C1859B29E00161B3D /* DuringMissionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC29B1859B29E00161B3D /* DuringMissionDetailViewController.m */; };
+		39EFC29F1859B2B400161B3D /* CompleteMissionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC29E1859B2B400161B3D /* CompleteMissionDetailViewController.m */; };
+		39EFC2A81859B2FD00161B3D /* WorkListControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2A71859B2FD00161B3D /* WorkListControl.m */; };
+		39EFC2AB1859B30A00161B3D /* WorkDetailControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2AA1859B30A00161B3D /* WorkDetailControl.m */; };
+		39EFC2AE1859B31D00161B3D /* WorkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2AD1859B31D00161B3D /* WorkDetailViewController.m */; };
+		39EFC2C91859B47400161B3D /* MsgCenterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2B01859B47400161B3D /* MsgCenterControl.m */; };
+		39EFC2CA1859B47400161B3D /* MsgCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2B21859B47400161B3D /* MsgCenterViewController.m */; };
+		39EFC2CB1859B47400161B3D /* MsgDetailControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2B41859B47400161B3D /* MsgDetailControl.m */; };
+		39EFC2CC1859B47400161B3D /* MsgDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2B61859B47400161B3D /* MsgDetailViewController.m */; };
+		39EFC2CD1859B47400161B3D /* PersonCenterControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2B81859B47400161B3D /* PersonCenterControl.m */; };
+		39EFC2CE1859B47400161B3D /* PersonCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2BA1859B47400161B3D /* PersonCenterViewController.m */; };
+		39EFC2CF1859B47400161B3D /* PersonEditControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2BC1859B47400161B3D /* PersonEditControl.m */; };
+		39EFC2D01859B47400161B3D /* PersonEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2BE1859B47400161B3D /* PersonEditViewController.m */; };
+		39EFC2D11859B47400161B3D /* PersonInfoControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2C01859B47400161B3D /* PersonInfoControl.m */; };
+		39EFC2D21859B47400161B3D /* PersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2C21859B47400161B3D /* PersonInfoViewController.m */; };
+		39EFC2D31859B47400161B3D /* PwdChangeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2C41859B47400161B3D /* PwdChangeControl.m */; };
+		39EFC2D41859B47400161B3D /* PwdChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2C61859B47400161B3D /* PwdChangeViewController.m */; };
+		39EFC2D51859B47400161B3D /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2C81859B47400161B3D /* SettingViewController.m */; };
+		39EFC2DC1859B85000161B3D /* NewMissionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2DB1859B85000161B3D /* NewMissionControl.m */; };
+		39EFC2DF1859B85F00161B3D /* NewMissionDetailControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2DE1859B85F00161B3D /* NewMissionDetailControl.m */; };
+		39EFC2E21859B87400161B3D /* DuringMissionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2E11859B87400161B3D /* DuringMissionControl.m */; };
+		39EFC2E51859B88200161B3D /* DuringMissionDetailControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2E41859B88200161B3D /* DuringMissionDetailControl.m */; };
+		39EFC2E81859B89000161B3D /* CompleteMissionDetailControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2E71859B89000161B3D /* CompleteMissionDetailControl.m */; };
+		39EFC2EB1859BB6000161B3D /* MissionNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFC2EA1859BB6000161B3D /* MissionNaviViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -563,6 +614,108 @@
 		39EFC22B18598B1700161B3D /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
 		39EFC22C18598B1700161B3D /* RefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshTableViewController.h; sourceTree = "<group>"; };
 		39EFC22D18598B1700161B3D /* RefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTableViewController.m; sourceTree = "<group>"; };
+		39EFC23918598F4300161B3D /* ForgetPwdRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdRequestViewController.h; sourceTree = "<group>"; };
+		39EFC23A18598F4300161B3D /* ForgetPwdRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdRequestViewController.m; sourceTree = "<group>"; };
+		39EFC23B18598F4300161B3D /* ForgetPwdVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdVerifyViewController.h; sourceTree = "<group>"; };
+		39EFC23C18598F4300161B3D /* ForgetPwdVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdVerifyViewController.m; sourceTree = "<group>"; };
+		39EFC23D18598F4300161B3D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		39EFC23E18598F4300161B3D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		39EFC23F18598F4300161B3D /* RegisterVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVerifyViewController.h; sourceTree = "<group>"; };
+		39EFC24018598F4300161B3D /* RegisterVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVerifyViewController.m; sourceTree = "<group>"; };
+		39EFC24118598F4300161B3D /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		39EFC24218598F4300161B3D /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		39EFC24918598F7B00161B3D /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		39EFC24A18598F7B00161B3D /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		39EFC24B18598F7B00161B3D /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		39EFC24C18598F7B00161B3D /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		39EFC24D18598F7B00161B3D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		39EFC24E18598F7B00161B3D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		39EFC25318598FD000161B3D /* ForgetPwdControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdControl.h; sourceTree = "<group>"; };
+		39EFC25418598FD000161B3D /* ForgetPwdControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdControl.m; sourceTree = "<group>"; };
+		39EFC25518598FD000161B3D /* ForgetPwdVerifyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdVerifyControl.h; sourceTree = "<group>"; };
+		39EFC25618598FD000161B3D /* ForgetPwdVerifyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdVerifyControl.m; sourceTree = "<group>"; };
+		39EFC25718598FD000161B3D /* LoginControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginControl.h; sourceTree = "<group>"; };
+		39EFC25818598FD000161B3D /* LoginControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginControl.m; sourceTree = "<group>"; };
+		39EFC25918598FD000161B3D /* RegisterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterControl.h; sourceTree = "<group>"; };
+		39EFC25A18598FD000161B3D /* RegisterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterControl.m; sourceTree = "<group>"; };
+		39EFC25B18598FD000161B3D /* RegisterVerifyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVerifyControl.h; sourceTree = "<group>"; };
+		39EFC25C18598FD000161B3D /* RegisterVerifyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVerifyControl.m; sourceTree = "<group>"; };
+		39EFC2621859903000161B3D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		39EFC2631859903000161B3D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		39EFC2681859A09200161B3D /* OnlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineViewController.h; sourceTree = "<group>"; };
+		39EFC2691859A09200161B3D /* OnlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineViewController.m; sourceTree = "<group>"; };
+		39EFC26B1859A2DD00161B3D /* DiscussViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscussViewController.h; sourceTree = "<group>"; };
+		39EFC26C1859A2DD00161B3D /* DiscussViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussViewController.m; sourceTree = "<group>"; };
+		39EFC26E1859A33700161B3D /* SearchQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchQuestionViewController.h; sourceTree = "<group>"; };
+		39EFC26F1859A33700161B3D /* SearchQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchQuestionViewController.m; sourceTree = "<group>"; };
+		39EFC2711859A6F100161B3D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		39EFC2721859A6F100161B3D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		39EFC2741859A9AE00161B3D /* MissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissionViewController.h; sourceTree = "<group>"; };
+		39EFC2751859A9AE00161B3D /* MissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissionViewController.m; sourceTree = "<group>"; };
+		39EFC2771859A9D700161B3D /* SearchQuestionControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchQuestionControl.h; sourceTree = "<group>"; };
+		39EFC2781859A9D700161B3D /* SearchQuestionControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchQuestionControl.m; sourceTree = "<group>"; };
+		39EFC27B1859AB6400161B3D /* ExtendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendCell.h; sourceTree = "<group>"; };
+		39EFC27C1859AB6400161B3D /* ExtendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendCell.m; sourceTree = "<group>"; };
+		39EFC2821859AC9800161B3D /* NewMissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMissionViewController.h; sourceTree = "<group>"; };
+		39EFC2831859AC9800161B3D /* NewMissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMissionViewController.m; sourceTree = "<group>"; };
+		39EFC2881859ADA500161B3D /* NewMissionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMissionDetailViewController.h; sourceTree = "<group>"; };
+		39EFC2891859ADA500161B3D /* NewMissionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMissionDetailViewController.m; sourceTree = "<group>"; };
+		39EFC28B1859ADBB00161B3D /* DuringMissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuringMissionViewController.h; sourceTree = "<group>"; };
+		39EFC28C1859ADBB00161B3D /* DuringMissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuringMissionViewController.m; sourceTree = "<group>"; };
+		39EFC28E1859AEC000161B3D /* ClientLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientLogViewController.h; sourceTree = "<group>"; };
+		39EFC28F1859AEC000161B3D /* ClientLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientLogViewController.m; sourceTree = "<group>"; };
+		39EFC2941859B01200161B3D /* ClientLogControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientLogControl.h; sourceTree = "<group>"; };
+		39EFC2951859B01200161B3D /* ClientLogControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientLogControl.m; sourceTree = "<group>"; };
+		39EFC2971859B07500161B3D /* WorkHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkHistoryViewController.h; sourceTree = "<group>"; };
+		39EFC2981859B07500161B3D /* WorkHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkHistoryViewController.m; sourceTree = "<group>"; };
+		39EFC29A1859B29E00161B3D /* DuringMissionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuringMissionDetailViewController.h; sourceTree = "<group>"; };
+		39EFC29B1859B29E00161B3D /* DuringMissionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuringMissionDetailViewController.m; sourceTree = "<group>"; };
+		39EFC29D1859B2B400161B3D /* CompleteMissionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteMissionDetailViewController.h; sourceTree = "<group>"; };
+		39EFC29E1859B2B400161B3D /* CompleteMissionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteMissionDetailViewController.m; sourceTree = "<group>"; };
+		39EFC2A61859B2FD00161B3D /* WorkListControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkListControl.h; sourceTree = "<group>"; };
+		39EFC2A71859B2FD00161B3D /* WorkListControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkListControl.m; sourceTree = "<group>"; };
+		39EFC2A91859B30A00161B3D /* WorkDetailControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkDetailControl.h; sourceTree = "<group>"; };
+		39EFC2AA1859B30A00161B3D /* WorkDetailControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkDetailControl.m; sourceTree = "<group>"; };
+		39EFC2AC1859B31D00161B3D /* WorkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkDetailViewController.h; sourceTree = "<group>"; };
+		39EFC2AD1859B31D00161B3D /* WorkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkDetailViewController.m; sourceTree = "<group>"; };
+		39EFC2AF1859B47400161B3D /* MsgCenterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgCenterControl.h; sourceTree = "<group>"; };
+		39EFC2B01859B47400161B3D /* MsgCenterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgCenterControl.m; sourceTree = "<group>"; };
+		39EFC2B11859B47400161B3D /* MsgCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgCenterViewController.h; sourceTree = "<group>"; };
+		39EFC2B21859B47400161B3D /* MsgCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgCenterViewController.m; sourceTree = "<group>"; };
+		39EFC2B31859B47400161B3D /* MsgDetailControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgDetailControl.h; sourceTree = "<group>"; };
+		39EFC2B41859B47400161B3D /* MsgDetailControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgDetailControl.m; sourceTree = "<group>"; };
+		39EFC2B51859B47400161B3D /* MsgDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgDetailViewController.h; sourceTree = "<group>"; };
+		39EFC2B61859B47400161B3D /* MsgDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgDetailViewController.m; sourceTree = "<group>"; };
+		39EFC2B71859B47400161B3D /* PersonCenterControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonCenterControl.h; sourceTree = "<group>"; };
+		39EFC2B81859B47400161B3D /* PersonCenterControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonCenterControl.m; sourceTree = "<group>"; };
+		39EFC2B91859B47400161B3D /* PersonCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonCenterViewController.h; sourceTree = "<group>"; };
+		39EFC2BA1859B47400161B3D /* PersonCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonCenterViewController.m; sourceTree = "<group>"; };
+		39EFC2BB1859B47400161B3D /* PersonEditControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonEditControl.h; sourceTree = "<group>"; };
+		39EFC2BC1859B47400161B3D /* PersonEditControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonEditControl.m; sourceTree = "<group>"; };
+		39EFC2BD1859B47400161B3D /* PersonEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonEditViewController.h; sourceTree = "<group>"; };
+		39EFC2BE1859B47400161B3D /* PersonEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonEditViewController.m; sourceTree = "<group>"; };
+		39EFC2BF1859B47400161B3D /* PersonInfoControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInfoControl.h; sourceTree = "<group>"; };
+		39EFC2C01859B47400161B3D /* PersonInfoControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInfoControl.m; sourceTree = "<group>"; };
+		39EFC2C11859B47400161B3D /* PersonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInfoViewController.h; sourceTree = "<group>"; };
+		39EFC2C21859B47400161B3D /* PersonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInfoViewController.m; sourceTree = "<group>"; };
+		39EFC2C31859B47400161B3D /* PwdChangeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwdChangeControl.h; sourceTree = "<group>"; };
+		39EFC2C41859B47400161B3D /* PwdChangeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwdChangeControl.m; sourceTree = "<group>"; };
+		39EFC2C51859B47400161B3D /* PwdChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwdChangeViewController.h; sourceTree = "<group>"; };
+		39EFC2C61859B47400161B3D /* PwdChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwdChangeViewController.m; sourceTree = "<group>"; };
+		39EFC2C71859B47400161B3D /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		39EFC2C81859B47400161B3D /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		39EFC2DA1859B85000161B3D /* NewMissionControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMissionControl.h; sourceTree = "<group>"; };
+		39EFC2DB1859B85000161B3D /* NewMissionControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMissionControl.m; sourceTree = "<group>"; };
+		39EFC2DD1859B85F00161B3D /* NewMissionDetailControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMissionDetailControl.h; sourceTree = "<group>"; };
+		39EFC2DE1859B85F00161B3D /* NewMissionDetailControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMissionDetailControl.m; sourceTree = "<group>"; };
+		39EFC2E01859B87400161B3D /* DuringMissionControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuringMissionControl.h; sourceTree = "<group>"; };
+		39EFC2E11859B87400161B3D /* DuringMissionControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuringMissionControl.m; sourceTree = "<group>"; };
+		39EFC2E31859B88200161B3D /* DuringMissionDetailControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuringMissionDetailControl.h; sourceTree = "<group>"; };
+		39EFC2E41859B88200161B3D /* DuringMissionDetailControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuringMissionDetailControl.m; sourceTree = "<group>"; };
+		39EFC2E61859B89000161B3D /* CompleteMissionDetailControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteMissionDetailControl.h; sourceTree = "<group>"; };
+		39EFC2E71859B89000161B3D /* CompleteMissionDetailControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteMissionDetailControl.m; sourceTree = "<group>"; };
+		39EFC2E91859BB6000161B3D /* MissionNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissionNaviViewController.h; sourceTree = "<group>"; };
+		39EFC2EA1859BB6000161B3D /* MissionNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissionNaviViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -687,6 +840,11 @@
 			isa = PBXGroup;
 			children = (
 				3988A4C51859823E00B69CC2 /* Main.storyboard */,
+				39EFC23818598EEB00161B3D /* Account */,
+				39EFC24818598F5C00161B3D /* Main */,
+				39EFC2651859A01400161B3D /* Online */,
+				39EFC2661859A03100161B3D /* Mission */,
+				39EFC2671859A03B00161B3D /* Person */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -694,6 +852,8 @@
 		3988A4EB1859832B00B69CC2 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				39EFC27B1859AB6400161B3D /* ExtendCell.h */,
+				39EFC27C1859AB6400161B3D /* ExtendCell.m */,
 				39EFC22018598B1700161B3D /* HUD */,
 				39EFC22318598B1700161B3D /* MJRefresh */,
 			);
@@ -1667,6 +1827,173 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
+		39EFC23818598EEB00161B3D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				39EFC23D18598F4300161B3D /* LoginViewController.h */,
+				39EFC23E18598F4300161B3D /* LoginViewController.m */,
+				39EFC24118598F4300161B3D /* RegisterViewController.h */,
+				39EFC24218598F4300161B3D /* RegisterViewController.m */,
+				39EFC23F18598F4300161B3D /* RegisterVerifyViewController.h */,
+				39EFC24018598F4300161B3D /* RegisterVerifyViewController.m */,
+				39EFC23918598F4300161B3D /* ForgetPwdRequestViewController.h */,
+				39EFC23A18598F4300161B3D /* ForgetPwdRequestViewController.m */,
+				39EFC23B18598F4300161B3D /* ForgetPwdVerifyViewController.h */,
+				39EFC23C18598F4300161B3D /* ForgetPwdVerifyViewController.m */,
+				39EFC25218598F9600161B3D /* Control */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		39EFC24818598F5C00161B3D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				39EFC24918598F7B00161B3D /* BaseTabBarController.h */,
+				39EFC24A18598F7B00161B3D /* BaseTabBarController.m */,
+				39EFC24B18598F7B00161B3D /* BaseTableViewController.h */,
+				39EFC24C18598F7B00161B3D /* BaseTableViewController.m */,
+				39EFC24D18598F7B00161B3D /* BaseViewController.h */,
+				39EFC24E18598F7B00161B3D /* BaseViewController.m */,
+				39EFC2621859903000161B3D /* MainViewController.h */,
+				39EFC2631859903000161B3D /* MainViewController.m */,
+				39EFC2711859A6F100161B3D /* FirstViewController.h */,
+				39EFC2721859A6F100161B3D /* FirstViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		39EFC25218598F9600161B3D /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				39EFC25718598FD000161B3D /* LoginControl.h */,
+				39EFC25818598FD000161B3D /* LoginControl.m */,
+				39EFC25918598FD000161B3D /* RegisterControl.h */,
+				39EFC25A18598FD000161B3D /* RegisterControl.m */,
+				39EFC25B18598FD000161B3D /* RegisterVerifyControl.h */,
+				39EFC25C18598FD000161B3D /* RegisterVerifyControl.m */,
+				39EFC25318598FD000161B3D /* ForgetPwdControl.h */,
+				39EFC25418598FD000161B3D /* ForgetPwdControl.m */,
+				39EFC25518598FD000161B3D /* ForgetPwdVerifyControl.h */,
+				39EFC25618598FD000161B3D /* ForgetPwdVerifyControl.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		39EFC2651859A01400161B3D /* Online */ = {
+			isa = PBXGroup;
+			children = (
+				39EFC2681859A09200161B3D /* OnlineViewController.h */,
+				39EFC2691859A09200161B3D /* OnlineViewController.m */,
+				39EFC26B1859A2DD00161B3D /* DiscussViewController.h */,
+				39EFC26C1859A2DD00161B3D /* DiscussViewController.m */,
+				39EFC26E1859A33700161B3D /* SearchQuestionViewController.h */,
+				39EFC26F1859A33700161B3D /* SearchQuestionViewController.m */,
+				39EFC27A1859A9DC00161B3D /* Control */,
+			);
+			name = Online;
+			sourceTree = "<group>";
+		};
+		39EFC2661859A03100161B3D /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+				39EFC2741859A9AE00161B3D /* MissionViewController.h */,
+				39EFC2751859A9AE00161B3D /* MissionViewController.m */,
+				39EFC2821859AC9800161B3D /* NewMissionViewController.h */,
+				39EFC2831859AC9800161B3D /* NewMissionViewController.m */,
+				39EFC2881859ADA500161B3D /* NewMissionDetailViewController.h */,
+				39EFC2891859ADA500161B3D /* NewMissionDetailViewController.m */,
+				39EFC28B1859ADBB00161B3D /* DuringMissionViewController.h */,
+				39EFC28C1859ADBB00161B3D /* DuringMissionViewController.m */,
+				39EFC29A1859B29E00161B3D /* DuringMissionDetailViewController.h */,
+				39EFC29B1859B29E00161B3D /* DuringMissionDetailViewController.m */,
+				39EFC29D1859B2B400161B3D /* CompleteMissionDetailViewController.h */,
+				39EFC29E1859B2B400161B3D /* CompleteMissionDetailViewController.m */,
+				39EFC2E91859BB6000161B3D /* MissionNaviViewController.h */,
+				39EFC2EA1859BB6000161B3D /* MissionNaviViewController.m */,
+				39EFC28E1859AEC000161B3D /* ClientLogViewController.h */,
+				39EFC28F1859AEC000161B3D /* ClientLogViewController.m */,
+				39EFC2971859B07500161B3D /* WorkHistoryViewController.h */,
+				39EFC2981859B07500161B3D /* WorkHistoryViewController.m */,
+				39EFC2AC1859B31D00161B3D /* WorkDetailViewController.h */,
+				39EFC2AD1859B31D00161B3D /* WorkDetailViewController.m */,
+				39EFC27E1859AC6400161B3D /* Control */,
+			);
+			name = Mission;
+			sourceTree = "<group>";
+		};
+		39EFC2671859A03B00161B3D /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				39EFC2B91859B47400161B3D /* PersonCenterViewController.h */,
+				39EFC2BA1859B47400161B3D /* PersonCenterViewController.m */,
+				39EFC2C11859B47400161B3D /* PersonInfoViewController.h */,
+				39EFC2C21859B47400161B3D /* PersonInfoViewController.m */,
+				39EFC2BD1859B47400161B3D /* PersonEditViewController.h */,
+				39EFC2BE1859B47400161B3D /* PersonEditViewController.m */,
+				39EFC2C51859B47400161B3D /* PwdChangeViewController.h */,
+				39EFC2C61859B47400161B3D /* PwdChangeViewController.m */,
+				39EFC2B11859B47400161B3D /* MsgCenterViewController.h */,
+				39EFC2B21859B47400161B3D /* MsgCenterViewController.m */,
+				39EFC2B51859B47400161B3D /* MsgDetailViewController.h */,
+				39EFC2B61859B47400161B3D /* MsgDetailViewController.m */,
+				39EFC2C71859B47400161B3D /* SettingViewController.h */,
+				39EFC2C81859B47400161B3D /* SettingViewController.m */,
+				39EFC2D61859B47900161B3D /* Control */,
+				39EFC2AF1859B47400161B3D /* MsgCenterControl.h */,
+				39EFC2B01859B47400161B3D /* MsgCenterControl.m */,
+				39EFC2B31859B47400161B3D /* MsgDetailControl.h */,
+				39EFC2B41859B47400161B3D /* MsgDetailControl.m */,
+				39EFC2B71859B47400161B3D /* PersonCenterControl.h */,
+				39EFC2B81859B47400161B3D /* PersonCenterControl.m */,
+				39EFC2BB1859B47400161B3D /* PersonEditControl.h */,
+				39EFC2BC1859B47400161B3D /* PersonEditControl.m */,
+				39EFC2BF1859B47400161B3D /* PersonInfoControl.h */,
+				39EFC2C01859B47400161B3D /* PersonInfoControl.m */,
+				39EFC2C31859B47400161B3D /* PwdChangeControl.h */,
+				39EFC2C41859B47400161B3D /* PwdChangeControl.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		39EFC27A1859A9DC00161B3D /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				39EFC2771859A9D700161B3D /* SearchQuestionControl.h */,
+				39EFC2781859A9D700161B3D /* SearchQuestionControl.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		39EFC27E1859AC6400161B3D /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				39EFC2DA1859B85000161B3D /* NewMissionControl.h */,
+				39EFC2DB1859B85000161B3D /* NewMissionControl.m */,
+				39EFC2DD1859B85F00161B3D /* NewMissionDetailControl.h */,
+				39EFC2DE1859B85F00161B3D /* NewMissionDetailControl.m */,
+				39EFC2E01859B87400161B3D /* DuringMissionControl.h */,
+				39EFC2E11859B87400161B3D /* DuringMissionControl.m */,
+				39EFC2E31859B88200161B3D /* DuringMissionDetailControl.h */,
+				39EFC2E41859B88200161B3D /* DuringMissionDetailControl.m */,
+				39EFC2E61859B89000161B3D /* CompleteMissionDetailControl.h */,
+				39EFC2E71859B89000161B3D /* CompleteMissionDetailControl.m */,
+				39EFC2941859B01200161B3D /* ClientLogControl.h */,
+				39EFC2951859B01200161B3D /* ClientLogControl.m */,
+				39EFC2A61859B2FD00161B3D /* WorkListControl.h */,
+				39EFC2A71859B2FD00161B3D /* WorkListControl.m */,
+				39EFC2A91859B30A00161B3D /* WorkDetailControl.h */,
+				39EFC2AA1859B30A00161B3D /* WorkDetailControl.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		39EFC2D61859B47900161B3D /* Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1769,17 +2096,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39EFC2D41859B47400161B3D /* PwdChangeViewController.m in Sources */,
+				39EFC24418598F4300161B3D /* ForgetPwdVerifyViewController.m in Sources */,
 				39EFBF3E18598A1D00161B3D /* XMPPRoomOccupantCoreDataStorageObject.m in Sources */,
+				39EFC26118598FD000161B3D /* RegisterVerifyControl.m in Sources */,
 				39EFBF4818598A1D00161B3D /* XMPPRoom.m in Sources */,
 				39EFBF5C18598A1D00161B3D /* XMPPMessage+XEP_0066.m in Sources */,
+				39EFC2CF1859B47400161B3D /* PersonEditControl.m in Sources */,
 				39EFBF5218598A1D00161B3D /* XMPPvCardTempEmail.m in Sources */,
+				39EFC2E21859B87400161B3D /* DuringMissionControl.m in Sources */,
+				39EFC2DC1859B85000161B3D /* NewMissionControl.m in Sources */,
 				3988A55C185983FC00B69CC2 /* URLRequestFactory.m in Sources */,
 				39EFBF4D18598A1D00161B3D /* XMPPvCardTempCoreDataStorageObject.m in Sources */,
 				39EFC1AD18598A1D00161B3D /* DDXMLDocument.m in Sources */,
 				39EFBF1B18598A1D00161B3D /* NSData+XMPP.m in Sources */,
 				39EFBF2F18598A1D00161B3D /* XMPPUserCoreDataStorageObject.m in Sources */,
+				39EFC2841859AC9800161B3D /* NewMissionViewController.m in Sources */,
 				39EFBF2218598A1D00161B3D /* XMPPModule.m in Sources */,
 				39EFBF6A18598A1D00161B3D /* XMPPMessageArchiving_Message_CoreDataObject.m in Sources */,
+				39EFC2791859A9D700161B3D /* SearchQuestionControl.m in Sources */,
 				39EFBF6F18598A1D00161B3D /* XMPPPresence+XEP_0172.m in Sources */,
 				39EFBF3818598A1D00161B3D /* XMPPIQ+LastActivity.m in Sources */,
 				39EFBF4518598A1D00161B3D /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
@@ -1788,24 +2123,32 @@
 				39EFBF7E18598A1D00161B3D /* GCDMulticastDelegate.m in Sources */,
 				39EFBF1C18598A1D00161B3D /* NSNumber+XMPP.m in Sources */,
 				39EFC23418598B1700161B3D /* MJRefreshBaseView.m in Sources */,
+				39EFC29C1859B29E00161B3D /* DuringMissionDetailViewController.m in Sources */,
 				39EFBF3F18598A1D00161B3D /* XMPPRoomHybrid.xcdatamodeld in Sources */,
 				39EFBF7F18598A1D00161B3D /* RFImageToDataTransformer.m in Sources */,
 				3988A574185983FC00B69CC2 /* DDFileLogger.m in Sources */,
+				39EFC2CD1859B47400161B3D /* PersonCenterControl.m in Sources */,
 				3988A557185983FC00B69CC2 /* ITSRequest.m in Sources */,
 				39EFBF7818598A1D00161B3D /* XMPPAttentionModule.m in Sources */,
+				39EFC2D11859B47400161B3D /* PersonInfoControl.m in Sources */,
 				3988A56D185983FC00B69CC2 /* MKNetworkEngine.m in Sources */,
 				39EFBF5B18598A1D00161B3D /* XMPPIQ+XEP_0066.m in Sources */,
 				39EFBF7518598A1D00161B3D /* XMPPTime.m in Sources */,
 				39EFBF3B18598A1D00161B3D /* XMPPRoom.xcdatamodeld in Sources */,
 				39EFBF5F18598A1D00161B3D /* XMPPMessage+XEP_0085.m in Sources */,
+				39EFC2701859A33700161B3D /* SearchQuestionViewController.m in Sources */,
 				39EFBF6D18598A1D00161B3D /* XMPPvCardAvatarModule.m in Sources */,
 				39EFBF2A18598A1D00161B3D /* XMPPReconnect.m in Sources */,
 				39EFBF2118598A1D00161B3D /* XMPPMessage.m in Sources */,
 				39EFBF2B18598A1D00161B3D /* XMPPGroupCoreDataStorageObject.m in Sources */,
 				39EFBF8018598A1D00161B3D /* XMPPIDTracker.m in Sources */,
+				39EFC2961859B01200161B3D /* ClientLogControl.m in Sources */,
+				39EFC2AE1859B31D00161B3D /* WorkDetailViewController.m in Sources */,
 				3988A572185983FC00B69CC2 /* DDAbstractDatabaseLogger.m in Sources */,
 				39EFC23718598B1700161B3D /* RefreshTableViewController.m in Sources */,
+				39EFC2E81859B89000161B3D /* CompleteMissionDetailControl.m in Sources */,
 				39EFBF2518598A1D00161B3D /* XMPPStream.m in Sources */,
+				39EFC28D1859ADBB00161B3D /* DuringMissionViewController.m in Sources */,
 				39EFBF6518598A1D00161B3D /* XMPPCapsCoreDataStorageObject.m in Sources */,
 				39EFBF1E18598A1D00161B3D /* XMPPElement.m in Sources */,
 				39EFBF8118598A1D00161B3D /* XMPPSRVResolver.m in Sources */,
@@ -1813,24 +2156,36 @@
 				39EFBF1D18598A1D00161B3D /* NSXMLElement+XMPP.m in Sources */,
 				39EFBF5318598A1D00161B3D /* XMPPvCardTempLabel.m in Sources */,
 				39EFBF6C18598A1D00161B3D /* XMPPMessageArchiving.m in Sources */,
+				39EFC24718598F4300161B3D /* RegisterViewController.m in Sources */,
 				39EFBF6918598A1D00161B3D /* XMPPMessageArchiving_Contact_CoreDataObject.m in Sources */,
 				39EFBF3D18598A1D00161B3D /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
 				39EFC1AE18598A1D00161B3D /* DDXMLElement.m in Sources */,
 				3988A575185983FC00B69CC2 /* DDLog.m in Sources */,
+				39EFC2A81859B2FD00161B3D /* WorkListControl.m in Sources */,
 				3988A563185983FC00B69CC2 /* ITSStream.m in Sources */,
 				39EFBF3C18598A1D00161B3D /* XMPPRoomCoreDataStorage.m in Sources */,
 				39EFBF5018598A1D00161B3D /* XMPPvCardTempAdrTypes.m in Sources */,
+				39EFC2D01859B47400161B3D /* PersonEditViewController.m in Sources */,
+				39EFC2731859A6F100161B3D /* FirstViewController.m in Sources */,
 				39EFBF7A18598A1D00161B3D /* NSXMLElement+XEP_0297.m in Sources */,
 				39EFBF2E18598A1D00161B3D /* XMPPRosterCoreDataStorage.m in Sources */,
 				39EFBF5118598A1D00161B3D /* XMPPvCardTempBase.m in Sources */,
 				39EFBF3018598A1D00161B3D /* XMPPResourceMemoryStorageObject.m in Sources */,
 				39EFBF7418598A1D00161B3D /* XMPPAutoTime.m in Sources */,
 				3988A559185983FC00B69CC2 /* ITSResponse.m in Sources */,
+				39EFC25F18598FD000161B3D /* LoginControl.m in Sources */,
 				39EFBF2D18598A1D00161B3D /* XMPPRoster.xcdatamodel in Sources */,
+				39EFC28A1859ADA500161B3D /* NewMissionDetailViewController.m in Sources */,
+				39EFC2C91859B47400161B3D /* MsgCenterControl.m in Sources */,
+				39EFC24F18598F7B00161B3D /* BaseTabBarController.m in Sources */,
 				39EFBF3518598A1D00161B3D /* XMPPIQ+JabberRPC.m in Sources */,
 				39EFBF6818598A1D00161B3D /* XMPPMessageArchiving.xcdatamodeld in Sources */,
+				39EFC2EB1859BB6000161B3D /* MissionNaviViewController.m in Sources */,
 				39EFBF4418598A1D00161B3D /* XMPPRoomMessageMemoryStorageObject.m in Sources */,
+				39EFC2901859AEC000161B3D /* ClientLogViewController.m in Sources */,
 				39EFBF4C18598A1D00161B3D /* XMPPvCardCoreDataStorageObject.m in Sources */,
+				39EFC2E51859B88200161B3D /* DuringMissionDetailControl.m in Sources */,
+				39EFC2641859903000161B3D /* MainViewController.m in Sources */,
 				39EFB9B4185989D200161B3D /* Constant.m in Sources */,
 				3988A565185983FC00B69CC2 /* ITSHttpQueueModule.m in Sources */,
 				3988A56C185983FC00B69CC2 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
@@ -1840,6 +2195,8 @@
 				3988A566185983FC00B69CC2 /* ITSHttpStream.m in Sources */,
 				3988A558185983FC00B69CC2 /* ITSRequestFactory.m in Sources */,
 				39EFBF7018598A1D00161B3D /* XMPPMessage+XEP_0184.m in Sources */,
+				39EFC25D18598FD000161B3D /* ForgetPwdControl.m in Sources */,
+				39EFC25E18598FD000161B3D /* ForgetPwdVerifyControl.m in Sources */,
 				3988A56F185983FC00B69CC2 /* Reachability.m in Sources */,
 				3988A567185983FC00B69CC2 /* NSData+MKBase64.m in Sources */,
 				39EFBF1518598A1D00161B3D /* XMPPAnonymousAuthentication.m in Sources */,
@@ -1847,22 +2204,28 @@
 				39EFBF2318598A1D00161B3D /* XMPPParser.m in Sources */,
 				39EFBF6218598A1D00161B3D /* NSString+XEP_0106.m in Sources */,
 				39EFC22E18598B1700161B3D /* EvilTransform.m in Sources */,
+				39EFC26018598FD000161B3D /* RegisterControl.m in Sources */,
 				39EFBF1F18598A1D00161B3D /* XMPPIQ.m in Sources */,
+				39EFC2CC1859B47400161B3D /* MsgDetailViewController.m in Sources */,
 				3988A569185983FC00B69CC2 /* NSDictionary+RequestEncoding.m in Sources */,
 				39EFBF6718598A1D00161B3D /* XMPPCapabilities.m in Sources */,
 				39EFBF2618598A1D00161B3D /* XMPPBandwidthMonitor.m in Sources */,
 				3988A562185983FC00B69CC2 /* ITSQueueModule.m in Sources */,
 				39EFBF3118598A1D00161B3D /* XMPPRosterMemoryStorage.m in Sources */,
 				3988A571185983FC00B69CC2 /* JSONKit.m in Sources */,
+				39EFC26A1859A09200161B3D /* OnlineViewController.m in Sources */,
 				39EFBF1A18598A1D00161B3D /* XMPPXFacebookPlatformAuthentication.m in Sources */,
+				39EFC29F1859B2B400161B3D /* CompleteMissionDetailViewController.m in Sources */,
 				39EFBF2418598A1D00161B3D /* XMPPPresence.m in Sources */,
 				39EFBF4F18598A1D00161B3D /* XMPPvCardTempAdr.m in Sources */,
 				3988A573185983FC00B69CC2 /* DDASLLogger.m in Sources */,
 				3988A56B185983FC00B69CC2 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
 				3988A570185983FC00B69CC2 /* MKNetworkOperationExt.m in Sources */,
+				39EFC25018598F7B00161B3D /* BaseTableViewController.m in Sources */,
 				39EFBF7318598A1D00161B3D /* XMPPPing.m in Sources */,
 				39EFBF3718598A1D00161B3D /* XMPPJabberRPCModule.m in Sources */,
 				3988A578185983FC00B69CC2 /* DispatchQueueLogFormatter.m in Sources */,
+				39EFC2CB1859B47400161B3D /* MsgDetailControl.m in Sources */,
 				3988A564185983FC00B69CC2 /* ITSTransManager.m in Sources */,
 				39EFBF5618598A1D00161B3D /* NSXMLElement+XEP_0059.m in Sources */,
 				39EFBF7918598A1D00161B3D /* XMPPMessage+XEP_0224.m in Sources */,
@@ -1871,18 +2234,25 @@
 				3988A560185983FC00B69CC2 /* NSNull+Fix.m in Sources */,
 				39EFBF2718598A1D00161B3D /* XMPPCoreDataStorage.m in Sources */,
 				3988A55D185983FC00B69CC2 /* BaseResponse.m in Sources */,
+				39EFC26D1859A2DD00161B3D /* DiscussViewController.m in Sources */,
+				39EFC2D31859B47400161B3D /* PwdChangeControl.m in Sources */,
 				39EFBF5518598A1D00161B3D /* XMPPvCardTempTel.m in Sources */,
+				39EFC2CA1859B47400161B3D /* MsgCenterViewController.m in Sources */,
 				3988A56E185983FC00B69CC2 /* MKNetworkOperation.m in Sources */,
 				39EFBF5818598A1D00161B3D /* XMPPIQ+XEP_0060.m in Sources */,
 				3988A576185983FC00B69CC2 /* DDTTYLogger.m in Sources */,
 				3988A56A185983FC00B69CC2 /* NSString+MKNetworkKitAdditions.m in Sources */,
 				3988A55E185983FC00B69CC2 /* JSONResponseFactory.m in Sources */,
 				39EFC23118598B1700161B3D /* TSLocationManager.m in Sources */,
+				39EFC24318598F4300161B3D /* ForgetPwdRequestViewController.m in Sources */,
 				39EFC1AF18598A1D00161B3D /* DDXMLNode.m in Sources */,
 				39EFBF4A18598A1D00161B3D /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
+				39EFC2CE1859B47400161B3D /* PersonCenterViewController.m in Sources */,
 				39EFBF6318598A1D00161B3D /* XMPPCapabilities.xcdatamodel in Sources */,
+				39EFC2D51859B47400161B3D /* SettingViewController.m in Sources */,
 				39EFBF4018598A1D00161B3D /* XMPPRoomHybridStorage.m in Sources */,
 				3988A55B185983FC00B69CC2 /* BaseRequest.m in Sources */,
+				39EFC24518598F4300161B3D /* LoginViewController.m in Sources */,
 				39EFBF1718598A1D00161B3D /* XMPPDeprecatedPlainAuthentication.m in Sources */,
 				39EFBF5918598A1D00161B3D /* XMPPPubSub.m in Sources */,
 				3988A561185983FC00B69CC2 /* ITSGCDMulticastDelegate.m in Sources */,
@@ -1894,8 +2264,11 @@
 				39EFB9B3185989D200161B3D /* AppData.m in Sources */,
 				39EFBF7118598A1D00161B3D /* XMPPMessageDeliveryReceipts.m in Sources */,
 				39EFBF5418598A1D00161B3D /* XMPPvCardTempModule.m in Sources */,
+				39EFC25118598F7B00161B3D /* BaseViewController.m in Sources */,
 				39EFBF7218598A1D00161B3D /* XMPPAutoPing.m in Sources */,
 				39EFBF3618598A1D00161B3D /* XMPPIQ+JabberRPCResonse.m in Sources */,
+				39EFC2DF1859B85F00161B3D /* NewMissionDetailControl.m in Sources */,
+				39EFC24618598F4300161B3D /* RegisterVerifyViewController.m in Sources */,
 				39EFBF5A18598A1D00161B3D /* TURNSocket.m in Sources */,
 				39EFC23218598B1700161B3D /* MBProgressHUD.m in Sources */,
 				39EFBF4618598A1D00161B3D /* XMPPMessage+XEP0045.m in Sources */,
@@ -1911,10 +2284,12 @@
 				3988A55F185983FC00B69CC2 /* ModelUtil.m in Sources */,
 				39EFBF4218598A1D00161B3D /* XMPPRoomOccupantHybridMemoryStorageObject.m in Sources */,
 				39EFBF4E18598A1D00161B3D /* XMPPvCardTemp.m in Sources */,
+				39EFC2D21859B47400161B3D /* PersonInfoViewController.m in Sources */,
 				39EFBF7618598A1D00161B3D /* NSXMLElement+XEP_0203.m in Sources */,
 				3988A55A185983FC00B69CC2 /* ITSResponseFactory.m in Sources */,
 				39EFBF4118598A1D00161B3D /* XMPPRoomMessageHybridCoreDataStorageObject.m in Sources */,
 				39EFBF7C18598A1D00161B3D /* NSXMLElement+XEP_0335.m in Sources */,
+				39EFC2761859A9AE00161B3D /* MissionViewController.m in Sources */,
 				39EFBF5E18598A1D00161B3D /* XMPPDateTimeProfiles.m in Sources */,
 				39EFBF3918598A1D00161B3D /* XMPPLastActivity.m in Sources */,
 				39EFBF4918598A1D00161B3D /* XMPPvCard.xcdatamodeld in Sources */,
@@ -1922,11 +2297,14 @@
 				39EFBF1618598A1D00161B3D /* XMPPDeprecatedDigestAuthentication.m in Sources */,
 				3988A4C01859823E00B69CC2 /* main.m in Sources */,
 				39EFBF4718598A1D00161B3D /* XMPPMUC.m in Sources */,
+				39EFC27D1859AB6400161B3D /* ExtendCell.m in Sources */,
 				3988A577185983FC00B69CC2 /* ContextFilterLogFormatter.m in Sources */,
 				39EFBF6E18598A1D00161B3D /* XMPPMessage+XEP_0172.m in Sources */,
 				39EFBF3A18598A1D00161B3D /* XMPPPrivacy.m in Sources */,
 				39EFBF4318598A1D00161B3D /* XMPPRoomMemoryStorage.m in Sources */,
+				39EFC2991859B07500161B3D /* WorkHistoryViewController.m in Sources */,
 				39EFBF6418598A1D00161B3D /* XMPPCapabilitiesCoreDataStorage.m in Sources */,
+				39EFC2AB1859B30A00161B3D /* WorkDetailControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
