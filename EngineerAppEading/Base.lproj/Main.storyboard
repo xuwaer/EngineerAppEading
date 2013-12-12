@@ -122,7 +122,7 @@
         <!--Navigation Controller-->
         <scene sceneID="knB-YO-gw0">
             <objects>
-                <navigationController definesPresentationContext="YES" id="Pdc-FM-sHI" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="scanRootController" definesPresentationContext="YES" id="Pdc-FM-sHI" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OD6-0r-OVz">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -134,16 +134,40 @@
             </objects>
             <point key="canvasLocation" x="-435" y="-1663"/>
         </scene>
-        <!--View Controller - 扫一扫-->
+        <!--Scan View Controller - 扫一扫-->
         <scene sceneID="84N-3I-gTu">
             <objects>
-                <viewController id="yga-2Q-RGg" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="scanViewController" id="yga-2Q-RGg" customClass="ScanViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="43k-HD-ZoQ">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="4qW-8H-OOf" customClass="ZBarReaderView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="扫一扫" id="oAf-9T-DMW"/>
+                    <navigationItem key="navigationItem" title="扫一扫" id="oAf-9T-DMW">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="mGN-Lr-fdS">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FWa-LZ-qUt">
+                                <rect key="frame" x="5" y="0.0" width="71" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="返回">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonClicked:" destination="yga-2Q-RGg" eventType="touchUpInside" id="Ecj-jx-kUr"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="readerView" destination="4qW-8H-OOf" id="v3A-Lb-ZaH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fb3-rf-ihY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

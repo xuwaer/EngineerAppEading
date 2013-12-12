@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "ScanViewController.h"
 
 @interface FirstViewController ()
 
@@ -27,7 +28,8 @@
 {
     [super viewDidLayoutSubviews];
 //    [self showLoginViewController];
-    [self showMainViewController];
+//    [self showMainViewController];
+    [self showScanViewController];
 }
 
 - (void)viewDidLoad
@@ -56,6 +58,14 @@
 -(void)showLoginViewController
 {
     [self performSegueWithIdentifier:@"login" sender:nil];
+}
+
+-(void)showScanViewController
+{
+    // 创建重复界面
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ScanViewController *scanController = [storyboard instantiateViewControllerWithIdentifier:@"scanRootController"];
+    [self presentViewController:scanController animated:YES completion:^{}];
 }
 
 @end
