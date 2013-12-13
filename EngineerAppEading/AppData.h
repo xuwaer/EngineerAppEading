@@ -7,15 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Constant.h"
 
-@class MapViewController;
 @interface AppData : NSObject
 
-@property (nonatomic, strong) MapViewController *mapController;
 @property (nonatomic, strong) NSUserDefaults *userDefault;
 
 + (AppData *)appData;
 
-- (void)saveSetting;
+/**
+ *	@brief	用户组
+ */
+@property (nonatomic, strong) NSMutableArray *users;
+
+- (BOOL)addUser:(User *)user;
+- (BOOL)addUsers:(NSArray *)users;
+- (BOOL)removeUser:(User *)user;
+- (BOOL)removeUsers:(NSArray *)users;
+
+- (BOOL)saveSetting;
 
 @end

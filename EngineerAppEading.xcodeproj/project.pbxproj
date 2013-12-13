@@ -62,6 +62,8 @@
 		3988A577185983FC00B69CC2 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3988A553185983FC00B69CC2 /* ContextFilterLogFormatter.m */; };
 		3988A578185983FC00B69CC2 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3988A555185983FC00B69CC2 /* DispatchQueueLogFormatter.m */; };
 		3988A579185983FC00B69CC2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3988A556185983FC00B69CC2 /* README.txt */; };
+		398E118F185B043A00C42887 /* XMPPTransManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 398E118E185B043A00C42887 /* XMPPTransManager.m */; };
+		398E1191185B04D200C42887 /* UserData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 398E1190185B04D200C42887 /* UserData.plist */; };
 		39EFB9B3185989D200161B3D /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFB9B0185989D200161B3D /* AppData.m */; };
 		39EFB9B4185989D200161B3D /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFB9B2185989D200161B3D /* Constant.m */; };
 		39EFBF1518598A1D00161B3D /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EFB9B918598A1700161B3D /* XMPPAnonymousAuthentication.m */; };
@@ -362,6 +364,9 @@
 		3988A554185983FC00B69CC2 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		3988A555185983FC00B69CC2 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		3988A556185983FC00B69CC2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		398E118D185B043A00C42887 /* XMPPTransManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPTransManager.h; sourceTree = "<group>"; };
+		398E118E185B043A00C42887 /* XMPPTransManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPTransManager.m; sourceTree = "<group>"; };
+		398E1190185B04D200C42887 /* UserData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserData.plist; sourceTree = "<group>"; };
 		39EFB9AF185989D200161B3D /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
 		39EFB9B0185989D200161B3D /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
 		39EFB9B1185989D200161B3D /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
@@ -926,10 +931,11 @@
 		3988A4ED1859834600B69CC2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				39EFB9AF185989D200161B3D /* AppData.h */,
-				39EFB9B0185989D200161B3D /* AppData.m */,
 				39EFB9B1185989D200161B3D /* Constant.h */,
 				39EFB9B2185989D200161B3D /* Constant.m */,
+				39EFB9AF185989D200161B3D /* AppData.h */,
+				39EFB9B0185989D200161B3D /* AppData.m */,
+				398E1190185B04D200C42887 /* UserData.plist */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -1146,13 +1152,15 @@
 		39EFB9AE185989A300161B3D /* XMPP */ = {
 			isa = PBXGroup;
 			children = (
+				398E118D185B043A00C42887 /* XMPPTransManager.h */,
+				398E118E185B043A00C42887 /* XMPPTransManager.m */,
+				39EFB9B518598A0400161B3D /* XMPPFramework.h */,
 				39EFB9B618598A1700161B3D /* Authentication */,
 				39EFB9CA18598A1700161B3D /* Categories */,
 				39EFB9D118598A1700161B3D /* Core */,
 				39EFB9E518598A1700161B3D /* Extensions */,
 				39EFBAC518598A1700161B3D /* Utilities */,
 				39EFBAD218598A1700161B3D /* Vendor */,
-				39EFB9B518598A0400161B3D /* XMPPFramework.h */,
 			);
 			name = XMPP;
 			sourceTree = "<group>";
@@ -2205,6 +2213,7 @@
 				3988A4CC1859823E00B69CC2 /* Images.xcassets in Resources */,
 				39EFC3121859BFFE00161B3D /* zbar-samples.png in Resources */,
 				39EFC23318598B1700161B3D /* MJRefresh.bundle in Resources */,
+				398E1191185B04D200C42887 /* UserData.plist in Resources */,
 				3988A4BE1859823E00B69CC2 /* InfoPlist.strings in Resources */,
 				39EFC3101859BFFE00161B3D /* zbar-help.html in Resources */,
 				3988A579185983FC00B69CC2 /* README.txt in Resources */,
@@ -2261,6 +2270,7 @@
 				39EFBF7F18598A1D00161B3D /* RFImageToDataTransformer.m in Sources */,
 				3988A574185983FC00B69CC2 /* DDFileLogger.m in Sources */,
 				39EFC2CD1859B47400161B3D /* PersonCenterControl.m in Sources */,
+				398E118F185B043A00C42887 /* XMPPTransManager.m in Sources */,
 				3988A557185983FC00B69CC2 /* ITSRequest.m in Sources */,
 				39EFBF7818598A1D00161B3D /* XMPPAttentionModule.m in Sources */,
 				39EFC2D11859B47400161B3D /* PersonInfoControl.m in Sources */,
